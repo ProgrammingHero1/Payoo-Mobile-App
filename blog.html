@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">daisyUI</a>
+      </div>
+      <div class="flex gap-2">
+        <input
+          type="text"
+          placeholder="Search"
+          class="input input-bordered w-24 md:w-auto"
+        />
+        <div class="dropdown dropdown-end">
+          <div
+            tabindex="0"
+            role="button"
+            class="btn btn-ghost btn-circle avatar"
+          >
+            <div class="w-10 rounded-full">
+              <img
+                alt="Tailwind CSS Navbar component"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              />
+            </div>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a class="justify-between">
+                Profile
+                <span class="badge">New</span>
+              </a>
+            </li>
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn">
+      <a href="/main.html"> home</a>
+    </button>
+
+    <main>
+      <section>
+        <div>
+          <h2 class="text-red-500 my-10 font-bold">Q1: What is JavaScript?</h2>
+          <p class="text-green-500 mb-12">
+            A: JavaScript is a high-level, interpreted programming language used
+            to create interactive effects within web browsers. It is primarily
+            used for client-side scripting but can also be used on the
+            server-side (like with Node.js)
+          </p>
+        </div>
+        <div>
+          <h2 class="text-red-500 my-10 font-bold">Q1: What is JavaScript?</h2>
+          <p class="text-green-500 mb-12">
+            A: JavaScript is a high-level, interpreted programming language used
+            to create interactive effects within web browsers. It is primarily
+            used for client-side scripting but can also be used on the
+            server-side (like with Node.js)
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
